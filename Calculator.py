@@ -3,6 +3,8 @@
 #result = int(num1) + int(num2)
 
 #print(result)
+#Here, the calculator works the same why but the
+#arithmetic operations need to be changed manually
 
 print("Select an operation to perform:")
 print("1. ADD")
@@ -15,25 +17,23 @@ operation = input()
 if operation == "1":
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
-    print("The sum is " + int(num1) + int(num2))
-elif operation == 2:
+    print("The sum is " + str(int(num1) + int(num2)))
+elif operation == "2":
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
-    print("The sum is " + (num1) - (num2))
-elif operation == 3:
+    print("The sum is " + str(int(num1) - int(num2)))
+elif operation == "3":
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
-    print("The sum is " + (num1) * (num2))
-elif operation == 4:
+    print("The sum is " + str(int(num1) * int(num2)))
+elif operation == "4":
     num1 = input("Enter first number: ")
     num2 = input("Enter second number: ")
-    print("The sum is " + (num1) / (num2))
+    print("The sum is " + str(int(num1) / int(num2)))
 else:
     print("Invalid Entry")
 
-
-
-
-
-
-
+#Here is a more complex calulator where it can accept
+#user input and can choose between the addition,
+#Multiplication and division
+#if no input is entered, then it returns ("Invalid Entry")
