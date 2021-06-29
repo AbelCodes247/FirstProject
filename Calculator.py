@@ -3,7 +3,7 @@
 #result = int(num1) + int(num2)
 
 #print(result)
-#Here, the calculator works the same why but the
+#Here, the calculator works the same way but the
 #arithmetic operations need to be changed manually
 
 print("Select an operation to perform:")
