@@ -4,7 +4,7 @@
 
 #print(result)
 #Here, the calculator works the same way but the
-#arithmetic operations need to be changed manually
+#Arithmetic operations need to be changed manually
 
 print("Select an operation to perform:")
 print("1. ADD")
@@ -34,6 +34,6 @@ else:
     print("Invalid Entry")
 
 #Here is a more complex calulator where it can accept
-#user input and can choose between the addition,
+#User input and can choose between the addition,
 #Multiplication and division
-#if no input is entered, then it returns ("Invalid Entry")
+#If no input is entered, then it returns ("Invalid Entry")
