@@ -10,7 +10,7 @@ height = float(input("How tall are you?: "))
 print("Your name is "+ (name))
 print("You are "+str(age) + " years old")
 print("Your "+str(height)+ "cm tall, "+ "Damn!!!, your that tall?")
-print("Thank you for volunteering here at Space X ")
+print("Thank you for registering here at Space X ")
 
 
 
