@@ -37,5 +37,5 @@ else:
 
 #Here is a more complex calulator where it can accept
 #User input and can choose between the addition,
-#Multiplication and division
+#Subtraction, multiplication and division
 #If no input is entered, then it returns ("Invalid Entry")
